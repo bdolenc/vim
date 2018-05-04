@@ -2,6 +2,7 @@
 
 " Basic Settings
 
+colorscheme desert
 filetype plugin indent on
 syntax on
 set guifont=Menlo:h14
@@ -22,7 +23,6 @@ set ttyfast
 set ruler
 set backspace=indent,eol,start
 set laststatus=2
-set noundofile
 nnoremap / /\v
 vnoremap / /\v
 set ignorecase
@@ -39,12 +39,8 @@ set linebreak
 set nolist
 set formatoptions=qrn1
 set spell spelllang=en_us
-set colorcolumn=80
+" set colorcolumn=80
 
-" Aesthetics
-
-colorscheme desert
-set background=light
 
 " Mappings and shortcuts
 
